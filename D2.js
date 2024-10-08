@@ -60,6 +60,9 @@
 // else if (number1 - number2 === 8) {
 //   console.log('la sottrazione è pari a 8')
 // }
+// else if (number2 - number1 === 8) {
+//   console.log('la sottrazione è pari a 8')
+// }
 // else if (number1 + number2 === 8) {console.log ("l'addizione è pari a 8")
 // }
 
