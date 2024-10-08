@@ -73,7 +73,7 @@
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 // let totalShoppingCart = x
-// let shippingFee = 10
+// const shippingFee = 10
 // let total
 
 // if (totalShoppingCart >= 50) {
@@ -94,7 +94,7 @@
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 // let totalShoppingCart = x
-// let shippingFee = 10
+// const shippingFee = 10
 // let blackFriday = totalShoppingCart*0.2
 // let total
 
@@ -117,13 +117,57 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let first = x
+// let second = y
+// let third = z
 
-
+// if (first < second) {
+//   if (first < third) {
+//   primo = first;
+//   if (second < third) {
+//   secondo = second;
+//   terzo = third;
+//   } else {
+//   secondo = third;
+//   terzo = second;
+//   }
+//   } else {
+//   primo = third;
+//   secondo = first;
+//   terzo = second;
+//   }
+//   } else {
+//   if (second < third) {
+//   primo = second;
+//   if (first < third) {
+//   second = first;
+//   terzo = third;
+//   } else {
+//   second = third;
+//   terzo = first;
+//   }
+//   } else {
+//   primo = third;
+//   secondo = second;
+//   terzo = first;
+//   }
+//   } 
+//   console.log(`Numeri ordinati in modo crescente: ${primo}, ${secondo},
+//  ${terzo}`);
+ 
+ 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// let valore = 'x'
+
+// if(typeof valore == 'number'){
+// 	console.log(valore + " is a number");
+//  }
+//  else console.log(valore + " is not a number");
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
