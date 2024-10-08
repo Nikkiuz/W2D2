@@ -4,11 +4,31 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let n1 = x
+// let n2 = y
+// let bigger 
+
+// if (n1<n2) {
+//   bigger = n2
+// }
+// else if (n1>n2) {
+//   bigger = n1
+// }
+// else {
+//   "they're even"
+// }
+// console.log('showbigger',bigger)
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// let number1 = x
+// if (number1!==5){
+//   console.log("not equal")
+// }
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
@@ -16,11 +36,33 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let number = 10
+
+// if (number % 5 === 0){
+//   console.log('Divisibile per 5')
+// }
+
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// let number1 = 10
+// let number2 = 2
+
+// if (number1 === 8){
+//   console.log('number1 è uguale a', number1)
+// } 
+// else if (number2 === 8) {
+//   console.log('number2 è uguale a', number2)
+// }
+// else if (number1 - number2 === 8) {
+//   console.log('la sottrazione è pari a 8')
+// }
+// else if (number1 + number2 === 8) {console.log ("l'addizione è pari a 8")
+// }
+
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -30,12 +72,42 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let totalShoppingCart = x
+// let shippingFee = 10
+// let total
+
+// if (totalShoppingCart >= 50) {
+//   console.log("Free shipping granted!")
+// }
+
+// else if (totalShoppingCart < 50) {
+//   (total = totalShoppingCart + shippingFee)
+//   console.log ( "Your total + Shipping fee (10€)", total)
+// }
+
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// let totalShoppingCart = x
+// let shippingFee = 10
+// let blackFriday = totalShoppingCart*0.2
+// let total
+
+// if (totalShoppingCart - blackFriday >= 50) { 
+//   (total = totalShoppingCart - blackFriday)
+//   console.log("Free shipping granted!", total)
+// }
+
+// else if (totalShoppingCart - blackFriday < 50) {
+//   (total = (totalShoppingCart - blackFriday) + shippingFee)
+//   console.log ( "Your total + Shipping fee (10€)", total)
+// }
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -44,6 +116,8 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
