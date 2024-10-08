@@ -167,7 +167,7 @@
 
 // let valore = 'x'
 
-// if(typeof valore == 'number'){
+// if(typeof valore === 'number'){
 // 	console.log(valore + " is a number");
 //  }
 //  else console.log(valore + " is not a number");
@@ -201,13 +201,15 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// let val = 7
-//   if (val < 10) {
+//  let val = 7
+//  if (val < 5) {
+//    console.log("Meno di 5");
+//  }
+//     if else (val < 10) {
 //       console.log("Meno di 10");
-//        } 
-//   else  {
-//       console.log("Uguale a 10 o maggiore");
-//     }
+//   } else {
+//     console.log("Uguale a 10 o maggiore");
+//   }
 
 
 /* ESERCIZIO 11
@@ -265,4 +267,5 @@ const me = {
 // numbers.pop()
 // numbers.push(100)
 // console.log (numbers)
+// numbers.splice(9, 1, 100)
 
