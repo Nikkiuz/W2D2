@@ -175,6 +175,15 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let number = x
+
+// let result = (number % 2)
+
+// if (result > 0) {
+//   console.log('Numero dispari!')
+// }
+// else console.log('Numero pari!')
+
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
@@ -189,6 +198,15 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let val = 7
+//   if (val < 10) {
+//       console.log("Meno di 10");
+//        } 
+//   else  {
+//       console.log("Uguale a 10 o maggiore");
+//     }
+
+
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -201,11 +219,20 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// me.city = 'Toronto'
+
+// console.log(me)
+
+
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// delete me.lastName
+
+// console.log(me)
+
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
